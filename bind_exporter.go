@@ -206,7 +206,7 @@ var (
 		),
 
 		"TcpClients": prometheus.NewDesc(
-			prometheus.BuildFQName(namespace, "", "Tcp_clients"),
+			prometheus.BuildFQName(namespace, "", "tcp_clients"),
 			"Number of current tcp clients.",
 			nil, nil,
 		),
