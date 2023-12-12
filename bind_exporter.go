@@ -1,3 +1,5 @@
+
+
 // Copyright 2020 The Prometheus Authors
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -202,6 +204,13 @@ var (
 			"Number of current recursive clients.",
 			nil, nil,
 		),
+
+		"TcpClients": prometheus.NewDesc(
+			prometheus.BuildFQName(namespace, "", "Tcp_clients"),
+			"Number of current tcp clients.",
+			nil, nil,
+		),
+
 	}
 	tasksRunning = prometheus.NewDesc(
 		prometheus.BuildFQName(namespace, "", "tasks_running"),
