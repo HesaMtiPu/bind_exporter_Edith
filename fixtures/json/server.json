@@ -21,7 +21,8 @@
     "QryDropped":237,
     "QryRecursion":60946,
     "QryFailure":2950,
-    "RecursClients":76
+    "RecursClients":76,
+    "TcpClients":80
   },
   "zonestats":{
     "XfrSuccess":25,
