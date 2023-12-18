@@ -63,6 +63,7 @@
       <counter name="ReqSIG0">0</counter>
       <counter name="ReqBadSIG">0</counter>
       <counter name="ReqTCP">0</counter>
+      <counter name="TCPConnHighWater">0</counter>
       <counter name="AuthQryRej">0</counter>
       <counter name="RecQryRej">0</counter>
       <counter name="XfrRej">3</counter>
