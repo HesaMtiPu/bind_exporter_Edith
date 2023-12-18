@@ -22,7 +22,8 @@
     "QryRecursion":60946,
     "QryFailure":2950,
     "RecursClients":76,
-    "TcpClients":80
+    "ReqTCP":150,
+    "TCPConnHighWater":200
   },
   "zonestats":{
     "XfrSuccess":25,
