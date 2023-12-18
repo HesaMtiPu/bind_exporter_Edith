@@ -204,12 +204,19 @@ var (
 			"Number of current recursive clients.",
 			nil, nil,
 		),
+		 "ReqTCP": prometheus.NewDesc(
+                        prometheus.BuildFQName(namespace, "", "tcp_clients_total"),
+                        "Number of tcp clients total.",
+                        nil, nil,
+                ),
 
-		"TcpClients": prometheus.NewDesc(
-			prometheus.BuildFQName(namespace, "", "tcp_clients"),
-			"Number of current tcp clients.",
-			nil, nil,
-		),
+                "TCPConnHighWater": prometheus.NewDesc(
+                        prometheus.BuildFQName(namespace, "", "tcp_high_water"),
+                        "Number of current tcp High Water.",
+                        nil, nil,
+                ),
+
+		
 
 	}
 	tasksRunning = prometheus.NewDesc(
